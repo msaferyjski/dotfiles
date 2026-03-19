@@ -12,6 +12,7 @@ opt.hlsearch = false
 opt.smartcase = true
 opt.ignorecase = true
 opt.swapfile = false
+opt.hidden = true
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
