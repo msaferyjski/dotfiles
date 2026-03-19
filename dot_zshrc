@@ -1,0 +1,12 @@
+export ZSH="$HOME/.oh-my-zsh"
+export PATH="$PATH:/home/maksy/.local/bin:$HOME/.local/share/bob/nvim-bin"
+ZSH_THEME="bira"
+
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
+alias n='nvim'
+export EDITOR='nvim'
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  
